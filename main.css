@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: turquoise;
+}
+.navbar{
+    display: flex;
+}
+button .btn{
+    background-color: #fff;
+    border: 1px solid blue;
+    height: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+   
+}
+ul li{
+    font-size: 34px;
+    color: #444;
+    background-color: yellow;
+    justify-content: space-around;
+}
