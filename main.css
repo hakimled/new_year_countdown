@@ -6,24 +6,26 @@
 body{
     background-color: turquoise;
 }
-.navbar{
-    display: flex;
-}
-button .btn{
-    background-color: #fff;
-    border: 1px solid blue;
-    height: 20px;
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    
+
+button{
+    height: 50px;
+    width: 200px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #222;
+    font-size: 20px;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
    
 }
-ul li{
-    font-size: 34px;
-    color: #444;
-    background-color: yellow;
-    justify-content: space-around;
+button:hover{
+    background-color: #ddd;
+    transition: background-color .2s ease-out;
+
+}
+button:active{
+    transform: scale(.98);
 }
